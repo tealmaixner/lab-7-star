@@ -4,15 +4,22 @@
 
 <head>
 		<meta charset="utf-8">
-		<title>Newly Discovered Neutron Star</title>
+		<!-- Responsive metatag -->    
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="mystyle.css">
-	</head>
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+			<title> Newly Discovered Neutron Star </title>
+
+		</head>
 
 	<body>
 		<header><!-- Introductory content -->
 			<img src="images/prettyspace1500x241.jpeg" width="1500" height="241" alt="pretty space" title="star collapse">
-		<h2>Newly Discovered Neutron Star</h2>
+		<h2 class="display-2 text-center"> Newly Discovered Neutron Star</h2>
+	
 			<p>
 				<nav class="nav">
           <ul>
@@ -27,13 +34,16 @@
               </li>
           </ul>
 				</nav>
+
+				<a class="btn btn-primary btn-sm" href="javascript:void(0)">Pick Your Star</a>
+	
 	    <h3>Published: May 30, 2022 </h3>
 		      <p>
 			        A new star is emitting unusal radio signals unlike any star so far found in this <em>region of the Milky Way</em>. It is an anomaly. It is a neutron star which comes from a massive star whose core collapsed. This leads astonomers to question what else is out there, and if larger undetected poplulations are "waiting to be discovered."
 		      </p>
     </header>
 			<main><!-- Dominant content of the web page -->
-        <section>
+        <section class="my-4">
             <p>
               The MeerTRAP team discovered this star in the Milky Way about 1,300 light years away from Earth in the Vela-X 1 region.
             </p>
@@ -44,11 +54,12 @@
 						</p>
 				</section>
 
-		<img src="images/newneutronstar.jpeg" width="800" height="400" alt="new neutron star" title="new neutron star">
+		<img src="images/newneutronstar.jpeg" width="800" height="400" alt="new neutron star" title="new neutron star" class="img-fluid img-thumbnail">
   	   <p>
-			      This new star resides in the neutron star “graveyard”. This is a region of space where we don’t expect to detect any radio emissions at all, since it’s theorised the neutron stars here are at the end of their life cycle and therefore not active (or less active).
+		<strong class="text-warning fw-bold"> <i class="bi bi-stars"></i> This new star resides in the neutron star “graveyard”. </strong> <strong class="text-warning fw-bold"> <i class="bi bi-stars"></i> </strong> This is a region of space where we don’t expect to detect any radio emissions at all, since it’s theorised the neutron stars here are at the end of their life cycle and therefore not active (or less active).
+			This new star resides in the neutron star “graveyard”. This is a region of space where we don’t expect to detect any radio emissions at all, since it’s theorised the neutron stars here are at the end of their life cycle and therefore not active (or less active).
 		   </p>
-		<img src="images/starcollapsejpeg.jpeg" width="474" height="400" alt="star collapse" title="star collapse">
+		<img src="images/starcollapsejpeg.jpeg" width="474" height="400" alt="star collapse" title="star collapse" class="img-fluid rounded-pill">
     <article><!-- Self-contained content intended to be independently distributable -->
   	   <p>
 			      Neutron stars are the collapsed cores of massive stars. Those that emit beams of electromagnetic radiation are classified as pulsars.
@@ -60,7 +71,7 @@
 				</p>
 		 </article>
 			</main>
-		<h3>Different Types of Neutron Stars </h3>
+		<h3  class="display-6 text-center border"> Different Types of Neutron Stars </h3>
 		<ul>
 			<li>Magnetar</li>
 			<li>Pulsar</li>
@@ -74,6 +85,9 @@
 		<p>
 			<a href="https://www.jpl.nasa.gov/images/pia23863-different-types-of-neutron-stars-illustration"> Types of Neutron Stars</a>
   	</p>
+	 <!-- Bootstrap JavaScript -->
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
 	</body>
 </html>
 
